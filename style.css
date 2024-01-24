@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./asset/1764224.webp);
+    /* background-color: red; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 50%;
+
+
+
+    color: white;
+}
+ 
+
+#container {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    padding-right: 8em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px red; */
+}
+
+#time {
+    font-size: 5em;
+    color: red;
+}
+
+
+h1:hover {
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+#time:hover {
+        margin-top: 1em;
+        transition-duration: 3s;
+}
